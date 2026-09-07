@@ -180,3 +180,29 @@ for x in lista:
 -----------
 
 
+#1. Pede ao utilizador para escrever uma frase qualquer.
+#2. Guarda essa frase num ficheiro chamado "notas.txt" (modo "w").
+#3. Depois de guardar, lê o ficheiro de volta e mostra o conteúdo no ecrã, para confirmares que gravou corretamente.
+
+frase = input("Escreve uma frase qualquer:")
+#ficheiro = open("dados.txt","w")
+ficheiro.write(frase)
+#ficheiro.close()
+
+#ficheiro = open("dados.txt","r")
+#leitura = ficheiro.read()
+print(leitura)
+ficheiro.close()
+
+-----------
+
+nomes = ["João", "Maria", "Pedro"]
+ficheiro = open("dados.txt","w")
+for x in nomes:
+    ficheiro.write(x + "\n")
+ficheiro.close()
+
+ficheiro = open("dados.txt","r")
+leitura = ficheiro.read()
+print(leitura)
+ficheiro.close()
