@@ -185,11 +185,11 @@ for x in lista:
 #3. Depois de guardar, lê o ficheiro de volta e mostra o conteúdo no ecrã, para confirmares que gravou corretamente.
 
 frase = input("Escreve uma frase qualquer:")
-#ficheiro = open("dados.txt","w")
+ficheiro = open("dados.txt","w")
 ficheiro.write(frase)
-#ficheiro.close()
+ficheiro.close()
 
-#ficheiro = open("dados.txt","r")
+ficheiro = open("dados.txt","r")
 #leitura = ficheiro.read()
 print(leitura)
 ficheiro.close()
@@ -206,3 +206,8 @@ ficheiro = open("dados.txt","r")
 leitura = ficheiro.read()
 print(leitura)
 ficheiro.close()
+
+------------
+
+
+
